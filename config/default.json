@@ -1,0 +1,9 @@
+{
+  "port": 5000,
+  "jwtSecret": "secretKey ...",
+  "mongoUri": "mongodb+srv://admin:admin@cluster0-dcoly.azure.mongodb.net/app?retryWrites=true&w=majority",
+  "Role": {
+    "Admin": "Admin",
+    "User": "User"
+  }
+}
