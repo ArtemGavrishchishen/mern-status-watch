@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 144px;
+  align-items: center;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.icons svg {
+  fill: rgb(0, 174, 255);
+}
+
+.content {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

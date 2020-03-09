@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WatchesPage = () => {
-  return <div>WatchesPage</div>;
+  return <main>WatchesPage</main>;
 };
 
 export default WatchesPage;

@@ -1,0 +1,47 @@
+.logo {
+  width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.logo::after,
+.logo::before {
+  content: '';
+  display: block;
+  width: 90%;
+  height: 10px;
+  margin: 0 auto;
+  border: 4px solid #00a2ff;
+}
+
+.logo::before {
+  margin-bottom: 5px;
+  border-bottom: 0;
+}
+
+.logo::after {
+  margin-top: 5px;
+  border-top: 0;
+}
+
+.logoHeader {
+  color: #000000;
+}
+
+.logoFooter {
+  color: #ffffff;
+}
+
+.logoTitle {
+  font-size: 21px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 9px;
+  margin: 0;
+  padding: 0 6px;
+}

@@ -1,0 +1,22 @@
+.partners {
+  background-color: #dbdbdb;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 125px;
+}
+
+.img {
+  width: auto;
+  height: 125px;
+}

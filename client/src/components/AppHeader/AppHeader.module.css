@@ -1,0 +1,116 @@
+.header {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.top {
+  height: 40px;
+  background-color: #2a5f7f;
+  margin-bottom: 15px;
+}
+
+.topContent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.user {
+  display: flex;
+  width: 60px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.body {
+  min-height: 70px;
+  background-color: #ffffff;
+}
+.bodyContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.logo {
+  margin-bottom: 15px;
+}
+
+.phone {
+  margin-bottom: 15px;
+}
+
+.phone {
+  color: #2a5f7f;
+  fill: #2a5f7f;
+}
+
+.desktop {
+  display: none;
+}
+
+.burger {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 50px;
+  height: 38px;
+  list-style: none;
+  margin: 0;
+  padding: 16px 10px;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: #fff;
+  height: 3px;
+}
+
+.icon:nth-child(1) {
+  transform: translate(0, -6px);
+}
+
+.icon:nth-child(3) {
+  transform: translate(0, 6px);
+}
+
+@media (min-width: 768px) {
+  .desktop {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .user {
+    margin-right: 0;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .phone {
+    order: 3;
+  }
+}
+
+@media (min-width: 900px) {
+  .bodyContent {
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .phone {
+    margin-bottom: 0;
+  }
+}

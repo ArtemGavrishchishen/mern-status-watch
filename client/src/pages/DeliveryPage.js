@@ -1,7 +1,7 @@
 import React from 'react';
 
 const DeliveryPage = () => {
-  return <div>DeliveryPage</div>;
+  return <main>DeliveryPage</main>;
 };
 
 export default DeliveryPage;
