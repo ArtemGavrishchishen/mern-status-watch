@@ -4,7 +4,23 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.2);
+}
+
+.enter {
+  composes: sidebar;
+  background: rgba(0, 0, 0, 0);
+}
+
+.enterDone {
+  composes: sidebar;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 300ms;
+}
+
+.exit {
+  composes: sidebar;
+  background: rgba(0, 0, 0, 0);
+  transition: background 300ms;
 }
 
 .container {
@@ -13,6 +29,20 @@
   min-height: 100vh;
   background-color: #717171;
   padding: 40px 25px;
+}
+
+.enter .container {
+  left: -200px;
+}
+
+.enterDone .container {
+  left: 0;
+  transition: left 300ms;
+}
+
+.exit .container {
+  left: -200px;
+  transition: left 300ms;
 }
 
 .burger {
